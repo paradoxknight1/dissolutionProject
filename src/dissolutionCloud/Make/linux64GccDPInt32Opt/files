@@ -1,0 +1,5 @@
+SOURCE += DissolutionParcel.C
+SOURCE += DissolutionCloud.C
+SOURCE += makeDissolutionParcelSubmodels.C
+
+LIB = $(FOAM_USER_LIBBIN)/libdissolutionCloud
